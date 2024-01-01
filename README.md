@@ -1,5 +1,6 @@
 # Mongo Migrations 🍀
-Repozytorium przedstawia prosta implementacje migracji z baza danych NoSQL - MongoDB.
+Repozytorium przedstawia prosta implementacje migracji z baza danych NoSQL - MongoDB. Oprocz tego pokazuje w jaki sposob
+zaimplementowac wzorzec Unit Of Work z wykorzystaniem MongoDB, a takze wzorzec (dla kogos antywzorzec) GenericRepository.
 W obecnych czasach, gdy mamy do czynienia z bazami SQL (np. SQL Server) to sprawa jest prosta, migracje są generowane
 za pomoca Entity Framework, albo gdy nie mamy Entity Framework, to mozemy pisac swoje skrypty .sql i jakis prosty skrypt
 ktory by je odpalal na starcie aplikacji.  
